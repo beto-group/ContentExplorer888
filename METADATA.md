@@ -14,7 +14,7 @@ compatibility:
   - Obsidian >=1.4.11
   - Datacore >=0.8.0
 repository:
-  - https://github.com/beto-group/ContentExplorer
+  - https://github.com/beto-group/ContentExplorer888
 missing: []
 resources:
   - assets/content_explorer.webp
