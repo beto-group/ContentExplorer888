@@ -19,7 +19,7 @@
   <hr>
 </div>
 
-![Content Explorer 888 Walkthrough](assets/contentexplorer888.clip.gif)
+<img src="assets/contentexplorer888.clip.gif" alt="Content Explorer 888 Walkthrough" width="100%">
 
 <div align="center">
   <p>
