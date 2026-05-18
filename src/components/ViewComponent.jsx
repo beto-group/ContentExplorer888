@@ -378,6 +378,28 @@ function View({ title = "PHYSICAL.enigmas", spawnType = "fullTab", onBack = null
     if (!container) return;
     if (!isFullTab) return;
 
+    // Inject impeccable status bar suppression stylesheet
+    const styleId = `impeccable-status-viewer-${title.replace(/[^a-zA-Z0-9]/g, "")}`;
+    let styleEl = document.getElementById(styleId);
+    if (!styleEl) {
+      styleEl = document.createElement('style');
+      styleEl.id = styleId;
+      styleEl.innerHTML = `
+        /* Hide global status bar and view footers */
+        .status-bar, .view-footer, .workspace-leaf-content-footer { 
+            display: none !important; 
+        }
+        
+        /* Expand workspace-leaf-content to edge-to-edge container */
+        .workspace-leaf-content { 
+            padding: 0 !important; 
+            margin: 0 !important; 
+            border-radius: 0 !important; 
+        }
+      `;
+      document.head.appendChild(styleEl);
+    }
+
     const timer = setTimeout(() => {
       const workspaceLeaf = findNearestAncestorWithClass(container, "workspace-leaf-content");
       if (!workspaceLeaf) return;
@@ -426,12 +448,16 @@ function View({ title = "PHYSICAL.enigmas", spawnType = "fullTab", onBack = null
         originalBackground,
         originalOverflow,
         contentWrapper,
-        parentOriginalPosition
+        parentOriginalPosition,
+        styleId
       };
     }, 100);
 
     return () => {
       clearTimeout(timer);
+      const el = document.getElementById(styleId);
+      if (el) el.remove();
+
       const cleanupData = container._cleanupData;
       if (cleanupData) {
         const { placeholder, originalParent, originalPosition, originalTop, originalLeft, originalWidth, originalHeight, originalZIndex, originalBackground, originalOverflow, contentWrapper, parentOriginalPosition } = cleanupData;
