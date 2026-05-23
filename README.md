@@ -10,7 +10,7 @@
   <!-- TOP PURPLE LINKS -->
   <a href="https://beto.group"><img src="https://img.shields.io/badge/WEBSITE-7A46F1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtZXh0ZXJuYWwtbGluayI+PHBhdGggZD0iTTE4IDEzdjZhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJWOGEyIDIgMCAwIDEgMi0yaGYiLz48cG9seWxpbmUgcG9pbnRzPSIxNSAzIDIxIDMgMjEgOSIvPjxsaW5lIHgxPSIxMCIgeDI9IjIxIiB5MT0iMTQiIHkyPSIzIi8+PC9zdmc+" alt="WEBSITE"></a>
   <a href="https://discord.com/invite/6rDp4q4Y2B"><img src="https://img.shields.io/badge/DISCORD-7A46F1?style=for-the-badge&logo=discord&logoColor=white" alt="JOIN OUR DISCORD"></a>
-  <a href="https://ko-fi.com/betogroup"><img src="https://img.shields.io/badge/Support-7A46F1?style=for-the-badge&logo=ko-fi&logoColor=white" alt="SUPPORT US ON KO-FI"></a>
+  <a href="https://github.com/sponsors/beto-group"><img src="https://img.shields.io/badge/Sponsor-7A46F1?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="SUPPORT US ON GITHUB"></a>
   <br/>
   <!-- BOTTOM GOLD TAXONOMY -->
   <img src="https://img.shields.io/badge/TARGET-DATACORE-000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNGRkUxNjUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48ZWxsaXBzZSBjeD0iMTIiIGN5PSI1IiByeD0iOSIgcnk9IjMiLz48cGF0aCBkPSJNIDMgNXYxNGE5IDMgMCAwIDAgMTggMHYtMTQiLz48cGF0aCBkPSJNIDMgMTJhOSAzIDAgMCAwIDE4IDAiLz48L3N2Zz4=" alt="TARGET">
@@ -57,16 +57,16 @@ The package exposes the following compiled and standardized files:
 | File | Description |
 | :--- | :--- |
 | **[CONTENT EXPLORER 888.md](CONTENT%20EXPLORER%20888.md)** | Main loader query designed to be opened in any Obsidian workspace tab. |
-| **[src/index.jsx](src/index.jsx)** | dynamic bootstrapper loader that compiles modules asynchronously. |
-| **[src/App.jsx](src/App.jsx)** | Coordinating main controller coordination React view. |
+| **[_RESOURCES/DATACORE/_DONE/CONTENT EXPLORER 888/src/index.jsx](_RESOURCES/DATACORE/_DONE/CONTENT%20EXPLORER%20888/src/index.jsx)** | dynamic bootstrapper loader that compiles modules asynchronously. |
+| **[_RESOURCES/DATACORE/_DONE/CONTENT EXPLORER 888/src/App.jsx](_RESOURCES/DATACORE/_DONE/CONTENT%20EXPLORER%20888/src/App.jsx)** | Coordinating main controller coordination React view. |
 | **[src/components/ViewComponent.jsx](src/components/ViewComponent.jsx)** | Core vertical media player and iFrame embed panel view. |
 | **[src/components/ViewComponentBounty.jsx](src/components/ViewComponentBounty.jsx)** | Main interactive radial map rendering circular SVG navigation layers. |
-| **[src/components/FileSectionsProvider.jsx](src/components/FileSectionsProvider.jsx)** | Document parser loading segments and running the inline segment editor. |
+| **[_RESOURCES/DATACORE/_DONE/CONTENT EXPLORER 888/src/components/FileSectionsProvider.jsx](_RESOURCES/DATACORE/_DONE/CONTENT%20EXPLORER%20888/src/components/FileSectionsProvider.jsx)** | Document parser loading segments and running the inline segment editor. |
 | **[src/components/ImagesPlaceholder.jsx](src/components/ImagesPlaceholder.jsx)** | Standardized drawing database generating fallback vector category icons. |
 | **[src/utils/UtilityFunctions.jsx](src/utils/UtilityFunctions.jsx)** | Media URL filters and container resize event observers. |
 | **[src/utils/IframesGuidelines.js](src/utils/IframesGuidelines.js)** | Aspect-ratio guideline maps for responsive platform iframe embedding. |
-| **[METADATA.md](METADATA.md)** | Machine-readable manifest outlining packaging attributes. |
-| **[CONTRIBUTION.md](CONTRIBUTION.md)** | Structural layout standards and core modular developer guides. |
-| **[LICENSE.md](LICENSE.md)** | Clean MIT License. |
+| **[METADATA.md](_RESOURCES/DATACORE/_DONE/CONTENT%20EXPLORER%20888/METADATA.md)** | Machine-readable manifest outlining packaging attributes. |
+| **[CONTRIBUTION.md](_RESOURCES/DATACORE/_DONE/CONTENT%20EXPLORER%20888/CONTRIBUTION.md)** | Structural layout standards and core modular developer guides. |
+| **[LICENSE.md](_RESOURCES/DATACORE/_DONE/CONTENT%20EXPLORER%20888/LICENSE.md)** | Clean MIT License. |
 | **[assets/content_explorer.webp](assets/content_explorer.webp)** | Standardized static thumbnail preview image of the component. |
 | **[assets/contentexplorer888.clip.gif](assets/contentexplorer888.clip.gif)** | Lanczos-compressed loop walkthrough GIF under 1MB. |
